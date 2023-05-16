@@ -21,31 +21,28 @@ The objective of this project is to use k-means unsupervised learning to cluster
 
 Feature Description:
 * DP: draft pick where player was selected in the NFL draft
-* Rush_ATT_per_GP: rushing attempts per game
-* Rush_Yards_per_GP: rushing yards per game
-* Rush_TDs_per_GP: rushing touchdownds per game
-* Yards_per_Carry: rushing yards per carry (rushing attempt)
 * REC_per_GP: receptions per game
 * REC_Yards_per_GP: receiving yards per game
 * REC_TDs_per_GP: receiving touchdowns per game
 * Yards_per_REC: yards gained per receptions
-* Touches_per_GP: touches per game
 * PPR_per_GP: average fantasy points per game (PPR style scoring) in college
-* Combined_RUSH_MS: a metric designed to represent a player's production in their team's rushing offense.
 * Combined_REC_MS: a metric designed to represent a player's receiving production in their college offense
-* RUSH_CD: a metric that equally weighs the career last and career best seasons in terms of market share of team rushing yards and rushing touchdowns.
-* REC_CD: represents the player's percentage of their team's offense in respect to the team's yardage and touchdowns
-* RB_BOA: the age in a season a running back first achieves a greater than 15% scrimmage dominator rating.
-* Yards_per_Carry_Over_TM_AVG: rushing yards per carry compared to the player's college team performance of rushing yards per carry
-* Yards_per_TM_Rush_ATT: player's rushing yards divided by player's team rush attempts in a season
+* RecPTMPA: receptions per team pass attempt
+* REC_Yards_per_TM_PA: receiving yards per team pass attempt
+* REC_TDS_per_TM_PA: receiving touchdowns per team pass attempt
+* TE_CD: represents the player's percentage of their team's offense in respect to the team's yardage and touchdowns
+* TE_BOA: the age in a season a tight end first achieves a greater than 15% receiving dominator rating
+* yards_per_rec_over_tm_avg: receiving yards per reception compared to the player's college team performance of receiving yards per reception
 * BMI: body mass index (BMI) recorded during the NFL Combine. Formula = Mass (lb) / Height (in)^2 x 703
 * forty_time: time it takes a player to complete a sprint measuring 40 yards. Times not recorded at the NFL combine are adjusted by adding .05 seconds to the player time.
-* Agility_Score: a metric intended to measure a player's lateral agility and quickness
-* Broad: measures the player's ability to jump horizontally from a balanced stance
-* Weight Adjusted Speed Score (WaSS): an athleticism metric developed by Bill Barnwell in Pro Football Prospectus that adjusts a player's 40 yard dash time for their weight
-* Relative Athletic Score (RAS): a metric created by Kent Lee Platte that can easily and intuitively gauge a player’s athletic abilities relative to the position they play
+* Hand_Size: the distance from the tip of the pinky to the tip of the thumb with the fingers spread out (recorded at NFL combine)
+* Arm_Length: the distance from the end of the bicep or shoulder blade to the tip of the middle finger with the arm extended (recorded at NFL combine)
 * Power_5_Conference: indicates whether the player played for a school belonging in one of the 'Power 5 Conferences' (Big 10, Big 12, ACC, SEC, or PAC-12) (0 = No, 1 = Yes)
 * Early_Declare: indicates whether a player declared for the NFL draft before his senior year season (0 = No, 1 = Yes)
+* Agility Score: a metric intended to measure a player's lateral agility and quickness
+* Height Adjusted Speed Score (HaSS): an athleticism metric developed by Shawn Siegele that creates a metric for wide receivers that adjusts a player's 40 time for height.
+* Relative Athletic Score (RAS): a metric created by Kent Lee Platte that can easily and intuitively gauge a player’s athletic abilities relative to the position they play
+* Freak Score: an athleticism metric that accounts for the height, weight, and speed of a prospect
 
 
 ## File Description <a name="description"></a>
