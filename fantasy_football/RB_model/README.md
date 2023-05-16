@@ -1,8 +1,5 @@
 # Clustering NFL Running Backs to Improve Fantasy Football Rookie Draft Outcomes
 
-This project is part of my Master thesis investigating whether prior CSR-related professional experience of directors sitting on boards of companies affects the corporate social performance (CSP) of those companies. CSR stands for corporate social responsibility and describes company conduct that is guided not only by economic concerns, but also by concerns about the environment, society, stakeholders and other discretionary factors. I investigated two hypothesis and both were supported.
-
-
 ## Table of Contents
 * [Installation](#Installation)
 * [Project Motivation and Description](#motivation)
@@ -19,8 +16,36 @@ The code requires Python versions of 3.* as well as the following:
 * math
 
 
-## Project Motivation and Description <a name="motivation"></a>
+## Project Objective and Description <a name="motivation"></a>
+The objective of this project is to use k-means unsupervised learning to cluster similar NFL running backs together in an attempt to improve fantasy football rookie draft decisions. The model is built using data involving players' NCAA stats and NFL combine data. The features and their descriptions are below:
 
+Feature Description:
+* DP: draft pick where player was selected in the NFL draft
+* Rush_ATT_per_GP: rushing attempts per game
+* Rush_Yards_per_GP: rushing yards per game
+* Rush_TDs_per_GP: rushing touchdownds per game
+* Yards_per_Carry: rushing yards per carry (rushing attempt)
+* REC_per_GP: receptions per game
+* REC_Yards_per_GP: receiving yards per game
+* REC_TDs_per_GP: receiving touchdowns per game
+* Yards_per_REC: yards gained per receptions
+* Touches_per_GP: touches per game
+* PPR_per_GP: average fantasy points per game (PPR style scoring) in college
+* Combined_RUSH_MS: a metric designed to represent a player's production in their team's rushing offense.
+* Combined_REC_MS: a metric designed to represent a player's receiving production in their college offense
+* RUSH_CD: a metric that equally weighs the career last and career best seasons in terms of market share of team rushing yards and rushing touchdowns.
+* REC_CD: represents the player's percentage of their team's offense in respect to the team's yardage and touchdowns
+* RB_BOA: the age in a season a running back first achieves a greater than 15% scrimmage dominator rating.
+* Yards_per_Carry_Over_TM_AVG: rushing yards per carry compared to the player's college team performance of rushing yards per carry
+* Yards_per_TM_Rush_ATT: player's rushing yards divided by player's team rush attempts in a season
+* BMI: body mass index (BMI) recorded during the NFL Combine. Formula = Mass (lb) / Height (in)^2 x 703
+* forty_time: time it takes a player to complete a sprint measuring 40 yards. Times not recorded at the NFL combine are adjusted by adding .05 seconds to the player time.
+* Agility_Score: a metric intended to measure a player's lateral agility and quickness
+* Broad: measures the player's ability to jump horizontally from a balanced stance
+* Weight Adjusted Speed Score (WaSS): an athleticism metric developed by Bill Barnwell in Pro Football Prospectus that adjusts a player's 40 yard dash time for their weight
+* Relative Athletic Score (RAS): a metric created by Kent Lee Platte that can easily and intuitively gauge a player’s athletic abilities relative to the position they play
+* Power_5_Conference: indicates whether the player played for a school belonging in one of the 'Power 5 Conferences' (Big 10, Big 12, ACC, SEC, or PAC-12) (0 = No, 1 = Yes)
+* Early_Declare: indicates whether a player declared for the NFL draft before his senior year season (0 = No, 1 = Yes)
 
 ## File Description <a name="description"></a>
 This paragraph lists the names of all jupyter notebook files, their inputs and their outputs, as well as what the file does.
