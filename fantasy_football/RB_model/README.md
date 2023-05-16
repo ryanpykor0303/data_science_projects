@@ -63,4 +63,3 @@ This paragraph lists the names of all notebook files, their inputs and outputs, 
 * The highest scoring players largely fall into clusters 0, 4, 6, and 10
 * Cluster 0 is by far the best cluster, with 76% of the players averaging 10+ points per game over their first three seasons in the NFL - players in this cluster should be highly considered while drafting
 * Cluster 0 has the highest hit rate for top 5, top 12, and top 24 fantasy finishes at the running back position, with 48% of players in the cluster having at least one top 5 scoring season, 64% with a top 12 season, and 76% with a top 24 season
-* Clusters below cluster 9 are noticeably filled with low scoring fantasy players. Players in these clusters should be avoided altogether or would be better targets for very late rounds as the players are much less likley to provide fantasy value.
