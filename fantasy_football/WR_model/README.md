@@ -8,7 +8,7 @@
 
 
 ## Installation
-The code requires Python versions of 3.* as well as the following:
+The code requires Python versions of 3.* as well as the following modules:
 * pandas
 * numpy
 * matplotlib.pyplot
