@@ -47,16 +47,16 @@ Feature Description:
 * Power_5_Conference: indicates whether the player played for a school belonging in one of the 'Power 5 Conferences' (Big 10, Big 12, ACC, SEC, or PAC-12) (0 = No, 1 = Yes)
 * Early_Declare: indicates whether a player declared for the NFL draft before his senior year season (0 = No, 1 = Yes)
 
+
 ## File Description <a name="description"></a>
-This paragraph lists the names of all jupyter notebook files, their inputs and their outputs, as well as what the file does.
+This paragraph lists the names of all notebook files, their inputs and outputs, as well as what the file does.
+
 
 **`RB_clustering_public.ipynb`:**
 * _Inputs_:
     * `2023_RB_Database.csv`
 * _Outputs_: RB_clusters.csv
-* _What it does_: This file conducts the k-means clustering analysis on the 2023_RB_Database and outputs 
-* 
-* NFL running backs  their corresponding clusters
+* _What it does_: This file conducts the k-means clustering analysis on the 2023_RB_Database and outputs player clusters and metrics. This file also generates a .csv file of the results to further analyze in other visualization software.
 
 
 ## Results
